@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args) {
+        System.out.println("Welcome to Online IDE!! Happy Coding :)");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("firsst nunber :)");
+        
+      int x = sc.nextInt();
+        System.out.println("second nunber :)");
+     int y = sc.nextInt();
+        int a = x + y;
+        System.out.println(a);
+        
+    }                         
+}
